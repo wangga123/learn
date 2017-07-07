@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			body {
+				background: skyblue;
+			}
+			.aa {
+				
+				width: 100px;
+				height: 100px;
+				/*background: palevioletred;*/
+				position: absolute;
+				/*opacity: 0;*/
+			}
+			.aa img {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+			}
+			.a1 {
+				top:0;
+				left:0;
+			}
+			.a2 {
+				bottom:0px;
+				left:0px;
+			}
+			.a3 {
+				bottom: 0px;
+				right: 0px;
+			}
+			.a4 {
+				top: 0px;
+				right:0px;
+			}
+			.a5 {
+				top: 300px;
+				left: 600px;
+				border-radius: 50%;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.12.2.min.js">
+			
+		</script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js">
+			
+		</script>
+		<script type="text/javascript">
+			
+			$(function(){
+				var config= [{
+				"opacity":1,
+				"top":200,
+				"left":500,
+			},{
+				"opacity":1,
+				"left":500,
+				"bottom":180,
+			},{
+				"opacity":1,
+				"right":566,
+				"bottom":180,
+			},{
+				"opacity":1,
+				"right":566,
+				"top":200,
+			},{
+				"opacity":1
+			}];
+				$(".aa").each(function(index,ele){
+					console.log(ele+"----"+index)
+					$(ele).animate(config[index],2000,"easeOutBounce")
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="a1 aa"><a href="../王嘎-新闻中心/新手指南.html"><img src="img/mmexport1496938042600.jpg"/></a></div>
+		<div class="a2 aa"><a href="../皇甫琳萍-职业介绍/index.html"><img src="img/mmexport1496937533952.jpg"/></a></div>
+		<div class="a3 aa"><a href="index.html"><img src="img/wx_camera_1496937414049.jpg"/></a></div>
+		<div class="a4 aa"><a href="../李毕-首页/index.html"><img src="img/mmexport1496938052055.jpg"/></a></div>
+		<div class="a5 aa"><a href=""><img src="img/mmexport1496939021984.jpg"/></a></div>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
