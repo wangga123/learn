@@ -1,0 +1,402 @@
+body{
+    background: #02122B;
+    height: 2000px;
+
+}
+/*固定导航栏开始*/
+.tob{
+    /*margin: 0 480px;*/
+    background: #fff;
+    width: 100%;
+    z-index: 10;
+}
+.top{
+    /*position: fixed;*/
+    height: 55px;
+    background-color: #fff;
+    width: 1100px;
+    margin: 0 auto;
+    z-index: 10;
+}
+.logo{
+    background: url(../images/logo1.png) no-repeat;
+    padding-top: 10px;
+}
+.datu{
+    position: absolute;
+    display: none;
+}
+.top ul li{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 16px;
+    margin-right: 20px
+}
+.logo h1{
+    display: inline-block;
+}
+.logo a{
+    display: block;
+    height: 50px;
+    width: 560px;
+    text-indent: -100000em;
+}
+.mul{
+    height: 0;
+    width: 0;
+    border-color: red transparent transparent transparent;
+    border-width:8px;
+    border-style: solid dashed dashed dashed;
+    overflow: hidden;
+    float: right;
+    margin-top: 10px;
+}
+/*固定导航栏结束*/
+/*主体开始*/
+.banner{
+    height: 1760px;
+    width: 1429px;
+    background: #07253D;
+    background:url(../images/bg_01_140923.jpg) no-repeat top;
+    /*vertical-align: top;*/
+
+}
+/*链接开始*/
+.jsh{
+    height: 114px;
+    width: 1131px;
+    margin: 0 0 0 46px;
+}
+.jsh img{
+    height: 114px;
+    width: 300px;
+    float: left;
+    display: inline-block;
+}
+.jsh ul{
+    float: right;
+}
+.jsh ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-right: 20px;
+    font-family: "微软雅黑";
+
+}
+.jsh ul li a{
+    color: white;
+}
+/*链接结束*/
+/*新闻中心开始*/
+.xin{
+    height: 237px;
+    /*margin: -4px 0 0 280px;*/
+}
+.xin1{
+    height: 241px;
+    width: 426px;
+    /*margin: -2px 0 0 0;*/
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+/*新闻中心结束*/
+/*版心头部开始*/
+.nav{
+    height: 100px;
+    margin-top: 5px;
+}
+.xz{
+    height: 70px;
+    width: 240px;
+    padding-top: 10px;
+}
+.xz h3{
+    font-size: 50px;
+    color: #BCC400;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.xz p{
+    font-size: 25px;
+    color: #D8590C;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-left: 25px;
+
+}
+.xz p span{
+    color: white;
+}
+
+.sec{
+    height: 40px;
+    width: 720px;
+    padding-top: 10px;
+}
+.sos button{
+    height: 28px;
+    width: 26px;
+    background: url(../images/soso.png) no-repeat;
+    float: right;
+    border-style: none;
+}
+.sos input{
+    height: 26px;
+    float: right;
+    background-color: #272C36;
+    padding-left: 10px;
+    color: #8F8F8F;
+    border-style: none;
+}
+.bt{
+    height: 50px;
+    width: 720px;
+    background-color:#07263C;
+}
+.bt ul li{
+    display: inline-block;
+
+
+}
+.bt ul li a{
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.bt ul li :hover{
+    background-color: #fff;
+}
+/*版心头部结束*/
+/*版心头部左部分开始*/
+/*新闻开始了*/
+.xinw{
+    height: 1023px;
+}
+.zhuc{
+    width: 210px;
+    height: 1020px;
+}
+.zhuce{
+    height: 265px;
+    margin-top-top: 30px;
+    padding-left: 30px;
+}
+.zhuce li{
+    background-color: #EDDCAE;
+    margin: 15px 0 0 0;
+}
+.zhuce li a{
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 47px;
+    width: 160px;
+}
+.zhuc span{
+    display: inline-block;
+    margin-top: 60px;
+}
+.zhuc span a{
+    font-size: 40px;
+    font-family: "微软雅黑";
+    padding-left: 40px;
+    color: #fff;
+}
+.youxt{
+    height: 152px;
+    margin-top: 20px;
+    padding-left: 40px;
+    z-index: 5;
+}
+.youxt li{
+    height: 80px;
+}
+.youxt li a{
+    font-size: 30px;
+    display: inline-block;
+    padding-top: 8px;
+}
+.sanj{
+    height: 0;
+    width: 0;
+    border-color:  transparent transparent transparent black;
+    border-width:8px;
+    border-style: solid dashed dashed dashed;
+    overflow: hidden;
+    margin-top: 10px;
+}
+/*版心头部左部分结束*/
+/*版心头部右部分新闻开始*/
+.xinw1{
+    width: 730px;
+    height: 1000px;
+}
+.xwqb{
+    height: 584px;
+    overflow: hidden;
+}
+.xinwen{
+    padding-top: 20px;
+    padding-right: 30px;
+    display: block;
+
+}
+.xinwen li{
+    margin-bottom:  20px;
+}
+.xinwen li span{
+    display:inline-block;
+    float: right;
+    font-size: 18px;
+}
+.xinwen li a{
+    font-size: 18px;
+}
+.xinwen li a strong{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.xinwen li  b{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.huadon{
+    height: 35px;
+    /*width: 720px;*/
+    padding-left: 100px;
+}
+.huadon b{
+    display: inline-block;
+    height: 29px;
+    width: 70px;
+    background-color: pink;
+    margin: 0 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+.huadon ul li{
+   float: left;
+    background-color: pink;
+    margin:0 8px;
+
+
+}
+.huadon ul li a{
+    display: inline-block;
+    margin-left: 6px;
+    height: 29px;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.whong{
+    height: 217px;
+    width: 600px;
+    margin: 34px 60px 20px 60px;
+    background-color: #E0E0E0;
+    position: relative;
+}
+.whong p{
+    line-height: 40px;
+    margin-left: 10px;
+}
+.whong h3{
+    margin-left: 10px;
+}
+.whong span{
+    display: inline-block;
+    margin : 20px 0 0 10px;
+    font-size: 20px;
+}
+.mn{
+    position: absolute;
+   right: -107px;
+    top :-29px;
+}
+/*底部开始了*/
+.bottom{
+    height: 55px;
+    margin: 0 -127px 0 224px;
+}
+.wy{
+    width: 310px;
+    height: 54px;
+}
+.guany{
+    width: 600px;
+    /*height: 55px;*/
+}
+.guany p a{
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    background-color: #610000;
+    margin-left: 30px;
+}
+.huan{
+    height: 119px;
+    width: 39px;
+    background:url(../images/fan.png) no-repeat;
+    position: absolute;
+    right: -132px;
+    bottom: 50px;
+}
+.huan1{
+    height: 119px;
+    width: 39px;
+    background:url(../images/fan.png) no-repeat;
+    position: absolute;
+    right: -132px;
+    bottom: 200px;
+}
+.huan1 a{
+    display: inline-block;
+    height: 118px;
+    width: 38px;
+}
+.huan a{
+    display: inline-block;
+    height: 118px;
+    width: 38px;
+}
+.fanren{
+    height: 382px;
+    width: 91px;
+    position: fixed;
+    z-index: 2;
+    top:230px;
+    left: 100px;
+
+}
+.youxi{
+    height: 400px;
+    width: 900px;
+    z-index: 10;
+    position: absolute;
+    display: none;
+    margin: 0 400px 0 300px;
+    background-color: #fff;
+    z-index: 5;
+}
+.youxi ul{
+    width: 200px;
+    margin-left: 20px;
+    float: left;
+}
+.youxi ul li{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
